@@ -31,10 +31,10 @@ body {
 .loading-grid::after {
     content: "";
     position: absolute;
-    top: 1.5vmin;
+    top: 0;
     left: -1vmin;
     width: 100%;
-    height: calc(100% - 3vmin);
+    height: calc(100% - 1.5vmin);
     border-width: 1vmin;
     border-style: solid;
     border-color: lightblue;
@@ -90,7 +90,7 @@ body {
 
 .version {
     font-size: 3vmin;
-    margin-top: -5vmin;
+    margin-top: -2.5vmin;
     translate: 0.6vmin;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
